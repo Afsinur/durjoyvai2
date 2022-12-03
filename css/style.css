@@ -1,0 +1,49 @@
+.locations {
+  height: 100%;
+}
+
+.locations a {
+  position: absolute;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 30px;
+  width: 30px;
+
+  background: white;
+  border-radius: 30px;
+
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  transition: 200ms linear;
+  transition-property: transform, width;
+}
+
+.locations a span {
+  display: none;
+  margin-left: 15px;
+
+  vertical-align: top;
+}
+
+.locations a:hover {
+  width: auto;
+  padding: 0 10px 2px 8px;
+
+  transform: scale(1.1);
+
+  z-index: 2;
+}
+
+.locations a:hover span {
+  display: inline-block;
+}
