@@ -11,10 +11,10 @@
   align-items: center;
   justify-content: center;
 
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
 
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 30px;
 
   text-decoration: none;
